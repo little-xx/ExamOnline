@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>账号注册</title>
+</head>
+<body>
+	<div id = "wrapper">
+		<h1>注册</h1>
+		<form method="post" action="signup.php">
+			<div id = "main">
+				<p><label>账户名：</label><input type="text" name="username" placeholder="请输入账户名"></p>
+				<p><label>学号：</label><input type="text" name="stu_id" placeholder="请输入学号"></p>
+				<p><label>密码：</label><input type="password" name="password" placeholder="请输入密码,仅用数字英文字母下划线组成"></p>
+				<p><label>确认密码：</label><input type="password" name="password" placeholder="请重复输入密码"></p>
+			</div>
+			<input id = "signup" type="submit" name="sub" value = "注册">
+		</form>
+	</div>
+</body>
+<link rel="stylesheet" type="text/css" href="signup.css">
+</html>
